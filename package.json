@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.test.js",
+  "module": "index.test.js",
+  "type": "module",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "testEnvironment": "jest-environment-node"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "RdngShotgn",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1",
+    "s4rpg": "file: [../node_modules/s4rpg/package.json]"
+  }
+}
